@@ -1,5 +1,7 @@
 # LLM API Key Validator
 
+<img width="348" height="237" alt="image" src="https://github.com/user-attachments/assets/d19005f3-5cb5-4c02-a704-6d36f65c7324" />
+
 LLM（GPT / Gemini / Claude）のAPIキーの有効性をチェックするChrome拡張機能。
 
 ## 対応サービス
