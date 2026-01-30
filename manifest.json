@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LLM API Key Validator",
+  "version": "1.0.0",
+  "description": "GPT / Gemini / Claude のAPIキーの有効性をチェック",
+  "permissions": [],
+  "host_permissions": [
+    "https://api.openai.com/*",
+    "https://api.anthropic.com/*",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LLM API Key Validator"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM API Key Validator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API Key Validator</h1>
+        <p class="subtitle">GPT / Gemini / Claude</p>
+
+        <div class="input-group">
+            <label for="apiKey">APIキーを入力</label>
+            <input type="text" id="apiKey" placeholder="sk-... または AIza..." autocomplete="off">
+        </div>
+
+        <div class="button-group">
+            <button class="btn-primary" id="validateBtn">チェック</button>
+            <button class="btn-secondary" id="clearBtn">クリア</button>
+        </div>
+
+        <div class="result-box" id="resultBox">
+            <div class="result-header">
+                <div class="result-icon" id="resultIcon"></div>
+                <div class="result-title" id="resultTitle"></div>
+            </div>
+            <div class="result-details" id="resultDetails"></div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
